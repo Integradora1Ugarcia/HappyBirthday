@@ -6,9 +6,9 @@ let w = (c.width = window.innerWidth),
   (opts = {
     // change the text in here //
     strings: ["Feliz", "Cumpleaños mi hermosa Vanee!", "Que todos tus deseos se hagan realidad", " con mucho amor Ulises"],
-    charSize: 30,
-    charSpacing: 35,
-    lineHeight: 40,
+    charSize: 20,
+    charSpacing: 25,
+    lineHeight: 30,
 
     cx: w / 2,
     cy: h / 2,
@@ -399,3 +399,4 @@ window.addEventListener("resize", function () {
 
   ctx.font = opts.charSize + "px Verdana";
 });
+
